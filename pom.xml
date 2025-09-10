@@ -10,10 +10,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.testdemo1</groupId>
-	<artifactId>testdemo1</artifactId>
+	<artifactId>credflow-apps-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>testdemo1</name>
-	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
+	<name>credflow-apps-service</name>
+	<description>Demo project for Spring Boot credflow-apps-service </description>
 	<url />
 	<licenses>
 		<license />
@@ -55,11 +56,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webflux</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.graphql</groupId>
 			<artifactId>spring-graphql-test</artifactId>
